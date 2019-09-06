@@ -5,6 +5,7 @@ Gem::Specification.new do |s|
   s.summary  = %q{work with relation between numeric symbol and their cardinals}
   s.authors  = ["Gaston Massimino"]
   s.email    = 'gamassimino01@gmail.com'
+  s.add_development_dependency 'rspec', '~> 3.7'
   s.files    = [
     "lib/cardinal_gem.rb"
   ]
